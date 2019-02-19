@@ -1,0 +1,58 @@
+#tabla{
+	background-color: black;
+	width: 25%;
+	height: 300px;
+	margin: auto;
+	margin-top: -1px;
+	text-align: center;
+}
+#numintrod{
+	width: 24.95%;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	color: white;
+	text-align: right;
+	border: none;
+	margin-left: 37.55%;
+	font-size: 4em;
+}
+.boton{
+	border-radius: 150px;
+	width: 65px;
+	height: 65px;
+	border: none;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 1.4em;
+}
+#cero{
+	width: 150px;
+}
+.dos{
+	margin-left: 15px;
+}
+
+.tres{
+	margin-left: -7px;
+}
+
+.uno{
+	margin-left: -10px;
+}
+
+.ucolumna{
+	color: white;
+	background-color: orange;
+
+}
+
+.pfila{
+	color: black;
+	background-color: #C6C6C6;
+}
+
+.numero{
+	color: white;
+	background-color: #4C4B4B;
+}

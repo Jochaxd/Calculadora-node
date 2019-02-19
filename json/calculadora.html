@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calculadora.css">
+	<script src="ClaseCalculadora.js"></script>
+	<title>Calculadora</title>
+</head>
+<body>
+	<header><h1></h1></header>
+	<table id="tabla">
+		<input type="text" id="numintrod" value="0" /></td>
+		<tr>
+			<td><input type="button" class="pfila boton uno" id="ac" value="AC" onclick='limpiar()' /><input type="button" class="pfila boton dos" id="signo" value="+/-" /></td>
+			<td><input type="button" class="pfila boton tres" id="porcentaje" value="%" /></td>
+			<td><input type="button" class="ucolumna boton" id="Division" value="/" onclick="signo('Division')" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="numero boton uno" id="siete" value="7" onclick='numeros(7)' /><input type="button" class="numero boton dos" id="ocho" value="8" onclick='numeros(8)' /></td>
+			<td><input type="button" class="numero boton tres" id="nueve" value="9" onclick='numeros(9)'/></td>
+			<td><input type="button" class="ucolumna boton" id="mult" value="x" onclick="signo('Multiplicacion')"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="numero boton uno" id="cuatro" value="4" onclick='numeros(4)'/><input type="button" class="numero boton dos" id="cinco" value="5" onclick='numeros(5)'/></td>
+			<td><input type="button" class="numero boton tres" id="seis" value="6" onclick='numeros(6)'/></td>
+			<td><input type="button" class="ucolumna boton" id="resta" value="-" onclick="signo('Resta')"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="numero boton uno" id="uno" value="1" onclick='numeros(1)'/><input type="button" class="numero boton dos" id="dos" value="2" onclick='numeros(2)'/></td>
+			<td><input type="button" class="numero boton tres" id="tres" value="3" onclick='numeros(3)'/></td>
+			<td><input type="button" class="ucolumna boton" id="suma" value="+" onclick="signo('Suma')"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="numero boton uno" id="cero" value="0" onclick='numeros(0)'/></td>
+			<td><input type="button" class="numero boton tres" id="punto" value="." /></td>
+			<td><input type="button" class="ucolumna boton" id="igual" value="=" onclick='igual()'/></td>
+		</tr>
+	</table>
+</body>
+</html>
